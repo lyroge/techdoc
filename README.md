@@ -3,7 +3,7 @@
 
 
 ##### 数据库篇
-    [postgres](dbserver/postgres)
+    [postgres](https://github.com/lyroge/techdoc/blob/master/dbserver/postgres)
 
 
 ##### web服务器篇
