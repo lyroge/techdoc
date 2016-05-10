@@ -2,8 +2,10 @@
 *** 
 
 
-##### 数据库篇
-    [postgres](https://github.com/lyroge/techdoc/blob/master/dbserver/postgres/)
+#### 数据库篇
+
+- [postgres](dbserver/postgres/)
 
 
 ##### web服务器篇
+
