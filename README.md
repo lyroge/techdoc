@@ -4,7 +4,7 @@
 
 #### 数据库篇
 
-- [postgres](dbserver/postgres/)
+- [postgresql实用命令收集](dbserver/postgresql实用命令收集.md)
 
 
 ##### 基础算法篇
