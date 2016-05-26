@@ -17,7 +17,14 @@
 1. ##### 将查询结果保存到文件 
 > \o output_file \o
 
-2. ##### other
+2. ##### 查看当前数据库连接情况
+> select * from pg_stat_activity;
+ 
+3. ##### 查看锁情况 procpid/pic
+> SELECT distinct(procpid), waiting FROM pg_stat_activity WHERE datname='venti' and waiting=true;
+
+4. ##### 清理锁情况 procpid/pid
+> SELECT pg_terminate_backend(procpid) FROM pg_stat_activity WHERE procpid <> pg_backend_pid() AND datname = 'venti' ;
 
 
 ### 其他参考资料
