@@ -1,7 +1,7 @@
-# postgresql实用命令收集（更新ing）
+### postgresql实用命令收集（更新ing）
 *** 
 
-### 查询空间大小
+#### 查询空间大小
 1. ##### 查看数据库占用磁盘空间大小
 > select pg_database_size('dbname')
 
@@ -13,8 +13,13 @@
 
 
 
-### 查询应用技巧
+#### 查询应用技巧
 1. ##### 将查询结果保存到文件 
 > \o output_file \o
 
 2. ##### other
+
+
+### 其他参考资料
+1. [15 Practical PostgreSQL Database Administration Commands](http://www.thegeekstuff.com/2009/04/15-practical-postgresql-database-adminstration-commands/)
+2. other
