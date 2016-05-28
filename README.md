@@ -12,6 +12,7 @@
 - [冒泡排序](algorithm/bubble_sort.py)
 - [快速排序](algorithm/quick_sort.py)
 - [插入排序](algorithm/insert_sort.py)
+- [归并排序](algorithm/merge_sort.py)
 - [切分数组](algorithm/split_list.py)
 
 
