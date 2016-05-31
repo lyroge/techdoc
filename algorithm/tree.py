@@ -67,11 +67,11 @@ if __name__ == "__main__":
     # 遍历二叉树
     tree = Tree(node0)
 
-    print '========= dlr ========='
+    print 'dlr order'
     tree.dlr_order()
 
-    print '========= ldr ========='
+    print 'ldr order'
     tree.ldr_order()
 
-    print '========= lrd ========='
+    print 'lrd order'
     tree.lrd_order()

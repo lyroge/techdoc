@@ -14,6 +14,7 @@
 - [插入排序](algorithm/insert_sort.py)
 - [归并排序](algorithm/merge_sort.py)
 - [切分数组](algorithm/split_list.py)
+- [二叉树遍历](algorithm/tree.py)
 
 
 ##### web服务器篇
