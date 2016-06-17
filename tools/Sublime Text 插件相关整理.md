@@ -8,9 +8,11 @@ Sublime Text 插件相关整理
 #### 我的Sublime开发插件列表
 - Package Control 不用说，必装插件
 - MarkDown Preview 可以直接预览MarkDown Preview文档
+- Git 提供git交互
 - Git Gutter 非常棒！ 实时的提示是否修改，有小图表示
+- Glue 提供一些与系统的交互
 - PyDoc 可以在线查询内置函数到官网
 - Terminal 打开当前目录终端
 - AllAutocomplete 全部打开文件中搜索
-- SublimeCodeIntel 更高级的自动代码提示
+- SublimeCodeIntel 更高级的代码提示工具
 - SublimeLinter 语法检查 (可以快捷键定位到有问题的地方ctl+cmd+e+[shift])
