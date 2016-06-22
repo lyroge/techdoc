@@ -18,6 +18,7 @@
 
 
 ##### web服务器篇
+- [uwsgi日志分析常用脚本](webserver/uwsgi日志分析常用脚本)
 
 ##### 工具篇
 - [Sublime Text 插件相关整理](tools/Sublime Text 插件相关整理.md)
