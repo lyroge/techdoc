@@ -129,6 +129,7 @@
 
 
 拼音搜索几个词
+
     {
         "query": {
             "query_string": {
@@ -154,31 +155,31 @@
     4. she ying       ik_pinyin
     5. she ying       ik_standard_pinyin
 
+
 应该均可以匹配相关内容
 
-
-index:  
-  analysis:         
-    filter:
-      whitespace_remove:
-        type: pattern_replace
-        pattern: " "
-        replacement: ""
-    analyzer:        
-      ik:  
-          alias: [ik_analyzer]
-          type: ik
-      ik_max_word:  
-          type: ik  
-          use_smart: false  
-      ik_smart:  
-          type: ik  
-          use_smart: true  
-      ik_pinyin:
-          type: custom
-          tokenizer: ik
-          filter: [pinyin, whitespace_remove, lowercase, trim]
-      standard_pinyin:
-          type: custom
-          filter: [pinyin, lowercase, trim]
-          tokenizer: standard
+    index:  
+      analysis:         
+        filter:
+          whitespace_remove:
+            type: pattern_replace
+            pattern: " "
+            replacement: ""
+        analyzer:        
+          ik:  
+              alias: [ik_analyzer]
+              type: ik
+          ik_max_word:  
+              type: ik  
+              use_smart: false  
+          ik_smart:  
+              type: ik  
+              use_smart: true  
+          ik_pinyin:
+              type: custom
+              tokenizer: ik
+              filter: [pinyin, whitespace_remove, lowercase, trim]
+          standard_pinyin:
+              type: custom
+              filter: [pinyin, lowercase, trim]
+              tokenizer: standard
