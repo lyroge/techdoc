@@ -5,6 +5,7 @@
 #### 数据库篇
 
 - [postgresql实用命令收集](dbserver/postgresql实用命令收集.md)
+- [elasticsearch](dbserver/es搜索中分词的尝试.md)
 
 
 ##### 基础算法篇
