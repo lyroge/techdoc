@@ -183,3 +183,19 @@
               type: custom
               filter: [pinyin, lowercase, trim]
               tokenizer: standard
+
+相似内容推荐
+
+    {
+      "query": {
+        "more_like_this": {
+          "fields": [
+            "msg"
+          ],
+          "like_text": "菜",
+          "min_term_freq": 1,
+          "min_doc_freq": 1,
+          "max_query_terms": 12
+        }
+      }
+    }
