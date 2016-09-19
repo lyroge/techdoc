@@ -24,3 +24,6 @@
 ##### 工具篇
 - [Sublime Text 插件相关整理](tools/Sublime Text 插件相关整理.md)
 
+##### 规范篇
+- [Python命名规范整理](specification/python命名规范.rst)
+
