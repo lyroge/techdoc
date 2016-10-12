@@ -16,3 +16,5 @@ Sublime Text 插件相关整理
 - AllAutocomplete 全部打开文件中搜索
 - SublimeCodeIntel 更高级的代码提示工具
 - SublimeLinter 语法检查 (可以快捷键定位到有问题的地方ctl+cmd+e+[shift])
+- SublimeTmpl 创建模板很方便
+- PyYapf google的格式化工具，不仅仅是格式化
