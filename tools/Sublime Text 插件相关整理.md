@@ -18,3 +18,4 @@ Sublime Text 插件相关整理
 - SublimeLinter 语法检查 (可以快捷键定位到有问题的地方ctl+cmd+e+[shift])
 - SublimeTmpl 创建模板很方便
 - PyYapf google的格式化工具，不仅仅是格式化
+- Origami 分屏神器
