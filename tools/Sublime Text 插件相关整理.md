@@ -19,3 +19,4 @@ Sublime Text 插件相关整理
 - SublimeTmpl 创建模板很方便
 - PyYapf google的格式化工具，不仅仅是格式化
 - Origami 分屏神器
+- Anacoda 直接变成IDE
